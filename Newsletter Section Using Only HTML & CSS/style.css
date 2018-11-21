@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "montserrat", sans-serif;
+}
+body {
+	background: #333;
+}
+.container{
+	background: url(https://saigon-gpdaily.com.vn/wp-content/uploads/2018/08/hinh-nen-powerpoint-dep-6.jpg) no-repeat center;
+	background-size: cover;
+	padding: 100px 48px;
+	text-align: center; 
+	color: white;
+}
+.container h1 {
+	text-shadow: 0 0 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.container p{
+	max-width: 600px;
+	margin: 40px auto;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+}
+.email-box {
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.email-box i {
+	background: #2f3542;
+	width: 40px;
+	line-height: 40px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.tbox, .btn {
+	border: none;
+	outline: none;
+}
+.tbox {
+	width: 0px;
+	transition: 0.6s;
+
+}
+.email-box:hover > .tbox,.tbox:focus {
+	width: 260px;
+	padding: 0 10px;
+}
+.btn {
+	background: #2f3542;
+	color: white;
+	padding: 0 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
